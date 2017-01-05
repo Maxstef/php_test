@@ -1,0 +1,142 @@
+body {
+    color:  #232323;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:  100%;
+    max-width:  1000px;
+    margin: auto;
+}
+header{
+    width:  100%;
+    margin:  50px 0;
+}
+header div{
+    display: inline-block;
+}
+.logo{
+    float: left;
+    width: 30%;
+}
+.logo img{
+    width:  100%;
+    height: auto;
+}
+.right-header{
+    width:  68%;
+}
+nav ul{
+    float: right;
+    width:  50%;
+    background-color: #6190cb ;
+    text-align: center;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+nav ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li:hover{
+    background-color: #353d46;
+}
+.title{
+    width: 300px;
+    font-size: 25px;
+    margin: 0px 0 0 50px;
+    text-align: center;
+}
+aside{
+    width:  30%;
+    float:  left;
+}
+.tasks-nav ul{
+    float: right;
+    width:  100%;
+    background-color: #6190cb ;
+   
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+.tasks-nav ul li{
+        width: 100%;
+         border-bottom: 1px solid #232323;
+    display: inline-block;
+    padding: 15px;
+}
+
+.tasks-nav ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.tasks-nav ul li:hover{
+    background-color: #353d46;
+}
+.main{
+    width: 65%;
+    float: left;
+    padding-left: 5%;
+}
+form .form-field{
+    margin: 20px 0;
+}
+.main section{
+    margin-bottom: 20px;
+}
+.main p{
+    padding: 20px 0;
+    font-size: 20px;
+    line-height: 25px;
+}
+footer{
+    clear: both;
+    text-align: center;
+    background-color: #6190cb;
+    color: #fff;
+    padding: 15px;
+}
+.solution{
+    font-size: 30px;
+}
+.solution input{
+    padding: 5px;
+}
+#loading{
+    display: none;
+    width:  40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+textarea{
+    width:  100%;
+}
+.button{
+    border-radius: 2px;
+    margin: 10px 5px;
+    border:  1px solid #232323;
+    padding: 7px 10px !important;
+    background-color: #6190cb;
+    color: #fff;
+}
+.button:hover{
+    background-color: #232323;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
